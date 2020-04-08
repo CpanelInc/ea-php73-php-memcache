@@ -7,7 +7,7 @@ Name: %{scl_version}-php-memcache
 Version: 4.0.3
 Summary: memcache extension for %{scl_version}
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4576 for more details
-%define release_prefix 1
+%define release_prefix 2
 Release: %{release_prefix}%{?dist}.cpanel
 License: MIT
 Group: Programming/Languages
@@ -48,6 +48,9 @@ install -m 644 %{SOURCE1} %{buildroot}/%{ext_prefix}/%{conf_dir}/
 %config /%{ext_prefix}/%{conf_dir}/memcache.ini
 
 %changelog
+* Wed Apr 08 2020 Daniel Muey <dan@cpanel.net> - 4.0.3-2
+- ZC-6515: Promote from experimental
+
 * Thu Apr 25 2019 Tim Mullin <tim@cpanel.net> - 4.0.3-1
 - EA-8302: Add support for php 7.3 and update to 4.0.3
 
