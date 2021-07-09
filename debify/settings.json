@@ -1,0 +1,12 @@
+{
+    "add_to_build_requires": [
+        "zlib1g",
+        "zlib1g-dev",
+        "libedit2",
+        "libargon2-1",
+        "libargon2-dev",
+        "ea-php73-php-cli",
+        "ea-php73-php-common",
+        "ea-php73-php-devel"
+    ]
+}
