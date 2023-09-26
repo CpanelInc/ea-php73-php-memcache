@@ -5,7 +5,6 @@
         "libedit2",
         "libargon2-1",
         "libargon2-dev",
-        "ea-php73-php-cli",
         "ea-php73-php-common",
         "ea-php73-php-devel"
     ]
